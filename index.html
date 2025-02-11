@@ -4,51 +4,98 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/FoodSta_Vite/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>FoodSta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script type="module" crossorigin src="/FoodSta_Vite/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/FoodSta_Vite/assets/index-C9Z8tvtb.css">
+    <link rel="stylesheet" crossorigin href="/FoodSta_Vite/assets/index-SS5LfY1Y.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="img/sprite.svg#logo"></use>
-        </svg>
-      </a>
+    <header class="header-section">
+  <div class="header-div container">
+    <nav class="nav-section">
+      <a class="logo header-logo" href="/index.html"><img src="/FoodSta_Vite/assets/logo-CXd7rZ-0.svg" alt="main-logo" width="66"
+          height="52" /></a>
       <ul class="nav-list">
         <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+          <a class="nav-item-link" href="/index.html">
+            <span class="underline current">Home</span>
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+          <a class="nav-item-link" href="">
+            <span class="underline">About</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-item-link" href="">
+            <span class="underline">Service</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-item-link" href="">
+            <span class="underline">Menu</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-item-link" href="">
+            <span class="underline">Contact</span>
+          </a>
         </li>
       </ul>
     </nav>
+    <button class="main-btn header-btn" type="button" data-modal-open>Order Now</button>
   </div>
 </header>
 
 
     <main>
       <!-- Loads the specified .html file -->
-       
+    
+    
+    <section class="section-three">
+    <div class="section-three-div container">
+        <h2 class="section-three-header">Some of Our Favorites</h2>
+        <p class="section-three-text">Looking for something delicious?</p>
+        <ul class="section-three-list">
+            <li class="section-three-list-item">
+                <img class="section-three-image" src="/FoodSta_Vite/assets/gamburger-DQu6FPAU.png" alt="Gamburger" width="315" height="315">
+                <h3 class="section-three-product-name">Gamburger</h3>
+            </li>
+            <li class="section-three-list-item">
+                <img class="section-three-image" src="/FoodSta_Vite/assets/pasta-DLB4IWvg.png" alt="Pasta" width="315" height="315">
+                <h3 class="section-three-product-name">Pasta</h3>
+            </li>
+            <li class="section-three-list-item">
+                <img class="section-three-image" src="/FoodSta_Vite/assets/pizza-BJX5WEY6.png" alt="Pizza" width="315" height="315">
+                <h3 class="section-three-product-name">Pizza</h3>
+            </li>
+            <li class="section-three-list-item">
+                <img class="section-three-image" src="/FoodSta_Vite/assets/chicken-D8Id2Bzx.png" alt="Chiken" width="315" height="315">
+                <h3 class="section-three-product-name">Chiken</h3>
+            </li>
+            <li class="section-three-list-item">
+                <img class="section-three-image" src="/FoodSta_Vite/assets/salat-BIJWh0dh.png" alt="Salat" width="315" height="315">
+                <h3 class="section-three-product-name">Salat</h3>
+            </li>
+            <li class="section-three-list-item">
+                <img class="section-three-image" src="/FoodSta_Vite/assets/borshch-CgJt3bFI.png" alt="Borshch" width="315" height="315">
+                <h3 class="section-three-product-name">Borshch</h3>
+            </li>
+        </ul>
+    </div>
+</section>
+    
+    
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
+    <footer>
+  Footer
 </footer>
 
 
