@@ -1,0 +1,131 @@
+.section-one {
+    background-color: #fefefe;
+    box-shadow: inset 0 4px 24px 0 rgba(105, 105, 105, 0.1);
+}
+
+.section-one-div {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 20px 56px 20px;
+}
+
+.header-one {
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    color: #2c2c2c;
+    margin-bottom: 28px;
+}
+
+.hero-image {
+    display: none;
+}
+
+.section-one-text-div {
+    max-width: 266px;
+}
+
+.sectione-one-text {
+    font-size: 14px;
+    line-height: 1.43;
+    margin-bottom: 40px;
+}
+
+.hero-btn {
+    display: block;
+    border-radius: 30px;
+    padding: 6px 17px;
+    min-width: 98px;
+    border: none;
+    cursor: pointer;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
+
+    background-color: #bbf330;
+    transition: background-color 250ms ease-in-out;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #ffe450;
+}
+
+@media only screen and (min-width: 768px) {
+    .header-one {
+            font-size: 42px;
+            margin-bottom: 44px;
+            width: 537px;
+        }
+    
+    .section-one-div {
+        position: relative;
+        padding: 60px 40px 30px 32px;
+    }
+
+    .section-one-text-div {
+        max-width: 537px;
+    }
+
+    .sectione-one-text {
+        font-size: 16px;
+        line-height: 1.5;
+        max-width: 336px;
+    }
+
+    .hero-image-div {
+        width: 320px;
+        height: 320px;
+        border-radius: 50%;
+        border: 14px solid #ffe550;
+        position: absolute;
+        bottom: 30px;
+        right: 40px;
+    }
+
+    .hero-image {
+        display: block;
+    }
+
+    .hero-btn {
+        margin-bottom: 73px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .section-one-div {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 14px 0;
+    }
+    
+    .section-one-text-div {
+        max-width: 511px;
+    }
+
+    .sectione-one-text {
+        max-width: 511px;
+    }
+
+    .header-one {
+        font-size: 48px;
+        margin-bottom: 28px;
+        width: 503px;
+    }
+
+    .hero-image-div {
+        width: 580px;
+        height: 580px;
+        border-radius: 50%;
+        border: 26px solid #ffe550;
+        position: static;
+        bottom: 30px;
+        right: 0;
+    }
+
+    .hero-btn {
+        margin-bottom: 0;
+    }
+}
