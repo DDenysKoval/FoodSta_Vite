@@ -1,0 +1,241 @@
+.section-two {
+    background-color: #ffe550;
+}
+
+.section-two-div {
+    padding: 35px 0 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+
+.benefits-image-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/apple-back.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 280px;
+    margin-bottom: 60px;
+}
+
+.section-two-image {
+    padding-bottom: 53px;
+}
+
+.header-two {
+    font-size: 28px;
+    margin-bottom: 28px;
+}
+
+.section-two-text {
+    margin-bottom: 28px;
+}
+
+.section-two-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 28px;
+}
+
+.section-two-icon-div {
+    height: 48px;
+    width: 48px;
+    border-radius: 100%;
+    background-color: #fff;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-two-icon {
+    fill: #7eb101;
+}
+
+.section-two-list-item {
+    max-width: 280px;
+}
+
+.section-two-header-three {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.section-two-text-two {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.section-two-btn-div {
+    display: flex;
+    align-items: center;
+}
+
+.white-btn {
+    display: block;
+    border: 2px solid #7eb101;
+    border-radius: 30px;
+    padding: 10px 20px;
+    min-width: 106px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 250ms ease-in-out, border 250ms ease-in-out;
+    margin-right: 24px;
+}
+
+.white-btn:hover,
+.white-btn:focus {
+    background-color: #bbf330;
+    border: 2px solid transparent;
+}
+
+.read-more-link {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #000;
+    display: flex;
+    align-items: center;
+    margin-right: 3px;
+}
+
+.span-icon-arrow {
+    width: 14px;
+    height: 14px;
+    background-color: #7eb101;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-arrow {
+    fill: #000;
+}
+
+.apple-ghost-one {
+    display: none;
+}
+
+.apple-ghost-two {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .section-two-div {
+        padding: 12px 0 88px;
+    }
+    
+    .section-two-image {
+        padding-bottom: 67px;
+    }
+
+    .benefits-image-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 357px;
+        background-position: bottom;
+        background-size: 357px;
+        margin-bottom: 0;
+        margin-right: 75px;
+    }
+
+    .apple-ghost-one {
+        display: block;
+        margin-right: 44px;
+        margin-bottom: 68px;
+        align-self: flex-end;
+    }
+    
+    .apple-ghost-two {
+        display: block;
+        margin-bottom: 68px;
+    }
+
+    .section-two-image-div {
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 60px;
+    }
+
+    .header-two {
+        font-size: 42px;
+        margin-bottom: 20px;
+        max-width: 526px;
+    }
+
+    .section-two-text {
+        margin-bottom: 25px;
+        font-size: 16px;
+        max-width: 500px;
+    }  
+    
+    .section-two-list {
+        flex-direction: row;
+        gap: 80px;
+        margin-bottom: 20px;
+    }
+
+    .section-two-list-item {
+        max-width: 288px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1280px) {
+    .apple-ghost-one {
+        display: none;
+    }
+    
+    .apple-ghost-two {
+        display: none;
+    }
+
+    .section-two-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 0 43px;
+    }
+
+    .benefits-image-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 550px;
+        background-position: bottom;
+        background-size: 550px;
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+
+    .section-two-image {
+        padding-bottom: 102px;
+    }
+
+    .section-two-image-div {
+        margin-bottom: 0;
+    }
+
+    /* .section-two-text-div {
+        padding: 83px 35px 108px 0;
+    } */
+
+    .section-two-list-item {
+        max-width: 253px;
+    }
+
+    .section-two-list {
+        margin-bottom: 32px;
+    }
+
+    .read-more-link {
+        display: none;
+    }
+}
