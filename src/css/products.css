@@ -1,5 +1,4 @@
 .header-three {
-    font-size: 28px;
     margin-bottom: 20px;
 }
 
@@ -11,7 +10,7 @@
     text-align: center;
     margin-bottom: 20px;
     font-weight: 700;
-    font-size: 42px;
+    font-size: 28px;
 }
 
 .section-three-text {
@@ -78,6 +77,10 @@
     .section-three {
             padding: 100px 0;
         }
+
+    .section-three-header {
+        font-size: 42px;
+}
 
     .section-three-text {
         margin-bottom: 60px;
