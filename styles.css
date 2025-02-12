@@ -1,34 +1,4 @@
 
-/* ~~~~~~~~~SECTION ONE~~~~~~~~~ */
-/*#region section one*/
-.section-one {
-    background-color: #F5F5F5;
-    box-shadow: inset 0 4px 24px 0 rgba(105, 105, 105, 0.1);
-}
-
-.section-one-div {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-image: url(../images/hero-border.png);
-    background-repeat: no-repeat;
-    background-size: 580px;
-    background-position: right 16px center;
-}
-
-.section-one-text-div {
-    max-width: 511px;
-}
-
-.sectione-one-text{
-    margin-bottom: 40px;
-}
-
-.hero-image {
-    margin: 40px 26px 40px auto;
-}
-/*#endregion section one*/
-
 /* ~~~~~~~~~SECTION TWO~~~~~~~~~ */
 /*#region section two*/
 .section-two {
