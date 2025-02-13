@@ -8,7 +8,7 @@
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
-    transition: opacity 1000ms ease-in-out, visibility 1000ms ease-in-out;
+    transition: opacity 250ms ease-in-out, visibility 250ms ease-in-out;
 }
 
 .modal-overlay.is-open {
