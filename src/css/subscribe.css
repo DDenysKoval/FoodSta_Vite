@@ -27,7 +27,7 @@
 }
 
 .section-five-input:focus {
-    border: 0.85px solid #7eb101;
+    border: 1px solid #7eb101;
 }
 
 .section-five-input::placeholder {
