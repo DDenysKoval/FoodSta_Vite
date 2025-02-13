@@ -1,57 +1,4 @@
 
-/*#endregion section four*/
-
-/* ~~~~~~~~~SECTION FIVE~~~~~~~~~ */
-/*#region section five*/
-.section-five-div {
-    display: flex;
-    padding: 67px 16px 64px;
-    justify-content: space-between;
-}
-
-.section-five-text-div {
-    display: flex;
-    flex-direction: column;
-}
-
-.section-five-header {
-    margin-top: 46px;
-    margin-bottom: 20px;
-}
-
-.section-five-text {
-    max-width: 532px;
-    margin-bottom: 24px;
-}
-
-.section-five-form {
-    display: flex;
-}
-
-.section-five-input {
-    min-width: 394px;
-    border: 0.85px solid #ffe550;
-    border-radius: 30px;
-    padding: 10px;
-    margin-right: 33px;
-    height: 42px;
-    outline: none;
-}
-
-.section-five-input:focus {
-    border: 0.85px solid #7eb101;
-}
-
-.section-five-input::placeholder {
-    font-size: 12px;
-    line-height: 1.5;
-    color: #505050;
-}
-
-/*#endregion section five*/
-
-/* ~~~~~~~~~SECTION FOOTER~~~~~~~~~ */
-/*#region section footer*/
 .subscribe-btn {
     padding: 10px 20px;
     min-width: 103px;
@@ -167,8 +114,8 @@
 }
 
 .footer-policy-text {
-        font-size: 12px;
-        line-height: 1.5;
+    font-size: 12px;
+    line-height: 1.5;
 }
 /*#endregion section footer*/
 
