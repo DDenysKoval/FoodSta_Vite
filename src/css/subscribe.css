@@ -1,0 +1,107 @@
+.section-five {
+    padding: 10px 0 60px;
+}
+
+.section-five-div {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+}
+
+.section-five-header {
+    margin-bottom: 20px;
+}
+
+.section-five-text {
+    margin-bottom: 34px;
+    font-size: 14px;
+}
+
+.section-five-input {
+    min-width: 278px;
+    border: 1px solid #ffe550;
+    border-radius: 30px;
+    padding: 10px;
+    height: 42px;
+    outline: none;
+}
+
+.section-five-input:focus {
+    border: 0.85px solid #7eb101;
+}
+
+.section-five-input::placeholder {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #505050;
+}
+
+.section-five-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.subscribe-btn {
+    display: block;
+    border-radius: 30px;
+    padding: 10px 20px;
+    min-width: 103px;
+    height: 42px;
+    background-color: #bbf330;
+    border: none;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
+    transition: background-color 250ms ease-in-out;
+    align-self: flex-end;
+}
+
+@media only screen and (min-width: 768px) {
+    .section-five {
+        padding: 18px 0 100px;
+    }
+
+    .section-five-banana {
+        align-self: flex-end;
+    }
+
+    .section-five-header {
+        max-width: 656px;
+    }
+
+    .section-five-text {
+        margin-bottom: 24px;
+        font-size: 16px;
+        max-width: 520px;
+    }
+
+    .section-five-input {
+        min-width: 394px;
+    }
+
+    .section-five-form {
+        flex-direction: row;
+        gap: 22px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .section-five {
+        padding: 67px 0 64px;
+    }
+
+    .section-five-div {
+        flex-direction: row;
+        gap: 0;
+        justify-content: space-between;
+    }
+
+    .section-five-text-div {
+        padding: 46px 0 36px;
+    }
+
+    .section-five-form {
+        gap: 33px;
+    }
+}
