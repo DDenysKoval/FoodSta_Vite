@@ -3,7 +3,7 @@
 }
 
 .section-two-div {
-    padding: 35px 0 72px;
+    padding: 35px 20px 72px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,6 +33,7 @@
 
 .section-two-text {
     margin-bottom: 28px;
+    font-size: 14px;
 }
 
 .section-two-list {
