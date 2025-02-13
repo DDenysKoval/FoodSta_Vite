@@ -13,7 +13,7 @@
       integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script type="module" crossorigin src="/FoodSta_Vite/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/FoodSta_Vite/assets/index-B-oex9Yf.css">
+    <link rel="stylesheet" crossorigin href="/FoodSta_Vite/assets/index-CWEZV0wd.css">
   </head>
   <body>
     <header class="header-section">
@@ -322,6 +322,55 @@
   </div>
 </footer>
 
+    
+    <div class="modal-overlay" data-modal>
+    <div class="modal">
+        <div class="modal-close-btn-div">
+            <button class="modal-close-btn" type="button" data-modal-close>
+                <svg class="modal-close-icon" width="24" height="24">
+                    <use href="/FoodSta_Vite/assets/icons-BmKNNX_L.svg#icon-close"></use>
+                </svg>
+            </button>
+        </div>
+        <p class="modal-header">Order Form</p>
+        <form class="modal-form">
+            <div class="modal-form-item">
+                <Label class="modal-label-style" for="user-name">Name</Label>
+                <input class="modal-input-style" type="text" id="user-name" name="user-name" placeholder="Your name"
+                    minlength="3" maxlength="25" required autofocus>
+                <div class="modal-valid-check">
+                    <svg class="icon-invalid" width="12" height="12">
+                        <use href="/FoodSta_Vite/assets/icons-BmKNNX_L.svg#icon-invalid"></use>
+                    </svg>
+                    <p class="input-invalid">The name must be between 3 and 25 characters</p>
+                </div>
+            </div>
+            <div class="modal-form-item">
+                <Label class="modal-label-style" for="user-phone">Phone number</Label>
+                <input class="modal-input-style" type="tel" id="user-phone" name="user-phone"
+                    placeholder="+38(0_ _)_ _ _   _ _   _ _" required minlength="12">
+                <div class="modal-valid-check">
+                    <svg class="icon-invalid" width="12" height="12">
+                        <use href="/FoodSta_Vite/assets/icons-BmKNNX_L.svg#icon-invalid"></use>
+                    </svg>
+                    <p class="input-invalid">This phone must be in the format 099 000 00 00</p>
+                </div>
+            </div>
+            <div class="modal-form-item">
+                <Label class="modal-label-style" for="user-email">E-mail</Label>
+                <input class="modal-input-style" type="email" id="user-email" name="user-email"
+                    placeholder="example@gmail.com" required>
+                <div class="modal-valid-check">
+                    <svg class="icon-invalid" width="12" height="12">
+                        <use href="/FoodSta_Vite/assets/icons-BmKNNX_L.svg#icon-invalid"></use>
+                    </svg>
+                    <p class="input-invalid">Please enter a valid email address</p>
+                </div>
+            </div>
+            <button class="modal-btn" type="submit">Send</button>
+        </form>
+    </div>
+</div>
 
   </body>
 </html>
