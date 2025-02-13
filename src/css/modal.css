@@ -1,5 +1,3 @@
-
-
 .modal-overlay {
     top: 0;
     left: 0;
@@ -21,15 +19,15 @@
 
 .modal {
     position: absolute;
-    width: 458px;
+    width: 320px;
     height: 449px;
-    top: 50%;
+    top: 60px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
     background-color: #ffe550;
     border-radius: 30px;
-    padding: 32px;
+    padding: 32px 20px;
 }
 
 .modal-close-btn {
@@ -42,15 +40,14 @@
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
     background-color: #fff;
     position: absolute;
-    top: 12px;
-    right: 12px;
+    top: 16px;
+    right: 16px;
     cursor: pointer;
     border: none;
     padding: 0;
 }
 
 .modal-close-icon {
-    /* box-shadow: inset 2px 1px 4px 0 rgba(61, 61, 61, 0.1); */
     fill: #2c2c2c;
 }
 
@@ -66,7 +63,7 @@
 .modal-form-item {
     display: flex;
     flex-direction: column;
-    margin-bottom: 6px;
+    margin-bottom: 9px;
 }
 
 .modal-label-style {
@@ -81,7 +78,7 @@
 .modal-input-style {
     border: 1px solid rgba(18, 18, 18, 0.12);
     border-radius: 30px;
-    width: 394px;
+    width: 280px;
     height: 48px;
     box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #fff;
@@ -90,7 +87,7 @@
 
 .modal-input-style:focus,
 .modal-input-style:active {
-    border: 0.85px solid #7eb101;
+    border: 1px solid #7eb101;
     outline: none;
 }
 
@@ -101,23 +98,22 @@
 }
 
 .modal-input-style:valid {
-    border: 0.85px solid #bbf330;
+    border: 1px solid #bbf330;
 }
 
 .modal-input-style:invalid {
-    border: 0.85px solid #ff705d;
+    border: 1px solid #ff705d;
 }
 
 .modal-valid-check {
     display: flex;
     align-items: center;
     margin-left: 12px;
-    /* visibility: hidden; */
 }
 
 .input-invalid {
     font-weight: 500;
-    font-size: 13px;
+    font-size: 11px;
     line-height: 1.4;
     color: #ff705d;
 }
@@ -144,4 +140,28 @@
     margin-top: 14px;
 }
 
-/*#endregion modal window*/
+@media screen and (min-width: 768px) {
+    .modal {
+        width: 458px;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        padding: 32px 32px;
+    }
+
+    .modal-close-btn {
+        top: 12px;
+        right: 12px;
+    }
+
+    .modal-input-style {
+        width: 394px;
+    }
+
+    .modal-form-item {
+        margin-bottom: 6px;
+    }
+
+    .input-invalid {
+        font-size: 13px;
+    }
+}
